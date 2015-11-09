@@ -1,0 +1,114 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700,300";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: white;
+    color: #222222;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 95%;
+}
+
+a {
+    text-decoration: none;
+    color: #D95B43;
+}
+
+a:hover {
+    color: #542437;
+}
+
+h1 {
+    padding-bottom: 0.5em;
+}
+
+h2 {
+    padding-bottom: 0.3em;
+}
+
+.wrapper {
+    background-color: white;
+    margin: 0 auto;
+    padding: 1em 0.5em;
+    width: 100%;
+}
+
+header {
+    background-color: white;
+}
+
+header a, header a:hover {
+    color: inherit;
+}
+
+nav {
+    margin-bottom: 0.5em;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dadfe1;
+    border-top: 1px solid #dadfe1;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: inherit;
+    display: inline-block;
+    margin-right: 0.5em;
+    padding: 0.75em 1.25em;
+    transition: background-color 0.5s ease 0s;
+}
+
+nav a:hover {
+    background-color: #ECD078;
+    color: inherit;
+}
+
+.here {
+    background-color: #F2F1EF;
+}
+
+.sitetitle {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.siteslogan {
+    font-style: italic;
+}
+
+main {
+    min-height: 20em;
+}
+
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #dadfe1;
+    padding: 0.5em 0;
+}
+
+.sitefooter {
+
+}
